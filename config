@@ -1,0 +1,21 @@
+# This is a comment
+[global_config]
+ focus = system
+ title_transmit_fg_color = '#a9a900'
+ title_receive_fg_color = '#a9efa9'
+ title_font = "cursive"
+
+[keybindings]
+ full_screen = <Ctrl><Shift>F11
+
+[profiles]
+ [[default]]
+   font = Fixed 10
+   background_type = "transparent"
+   background_color = "#211111" # A comment
+   background_darkness = 0.7
+   foreground_color = "#A9A9FF" # Note that hex colour values must be quoted
+   allow_bold = True
+   scrollback_lines = '500' #More comment. Single quotes are valid too
+   cursor_blink = True
+   custom_command = "echo \"foo#bar\"" #Final comment - this will work as expected.
